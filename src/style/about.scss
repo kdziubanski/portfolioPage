@@ -1,0 +1,26 @@
+.about {
+  height: 100%;
+  width: 90%;
+  margin: 0 auto;
+
+  .about__container {
+    margin: 30px 10px 20px 10px;
+    font-size: 20px;
+    font-family: "Mansalva", cursive;
+  }
+  .about__image {
+    min-width: 20%;
+    max-width: 40%;
+    border-radius: 50px;
+  }
+
+  .about__image-first {
+    float: left;
+    margin-right: 20px;
+  }
+
+  .about__image-second {
+    float: right;
+    margin-left: 20px;
+  }
+}
