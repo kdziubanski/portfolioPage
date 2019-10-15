@@ -1,0 +1,74 @@
+.taskList {
+  width: 100%;
+  text-align: center;
+  min-height: 10vh;
+}
+
+.task {
+  margin: 0 auto;
+  font-size: 20px;
+  border: 2px solid black;
+  width: 80%;
+  margin-top: 5px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-family: "Mansalva", cursive;
+  line-height: 1.3;
+}
+
+.task__note {
+  margin: 0;
+  font-size: 15px;
+}
+
+.task__title {
+  margin: 0;
+}
+
+.task .task__button {
+  padding: 2px 15px;
+  margin-bottom: 4px;
+  border-radius: 10px;
+  background-color: #292828;
+  color: red;
+  border: 1px solid black;
+}
+
+.task .task__button:hover {
+  background-color: black;
+}
+
+.task .task__button--done {
+  background-color: #069706;
+  color: black;
+  font-weight: bold;
+}
+
+.task .task__button--done:hover {
+  background-color: green;
+}
+
+.low {
+  background-color: #78d178;
+}
+
+.low:hover {
+  background-color: green;
+}
+
+.medium {
+  background-color: #dbdb6c;
+}
+
+.medium:hover {
+  background-color: yellow;
+}
+
+.important {
+  background-color: #b64f4f;
+}
+
+.important:hover {
+  background-color: #ad0303;
+}
+/*# sourceMappingURL=taskList.css.map */

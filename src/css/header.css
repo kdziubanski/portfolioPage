@@ -1,0 +1,22 @@
+.header .header__navigation {
+  margin-top: 10px;
+  width: 100%;
+  top: 1vh;
+  text-align: right;
+}
+
+.header .header__navigation .header__link {
+  height: 20%;
+  color: white;
+  padding: 20px 20px 0 5px;
+  font-size: 20px;
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+  font-family: "Mansalva", cursive;
+}
+
+.header .header__navigation .active {
+  color: black;
+  font-weight: bold;
+}
+/*# sourceMappingURL=header.css.map */

@@ -6,8 +6,7 @@
     text-align: center;
   }
   &__choose {
-    margin-left: 20px;
-    margin-top: 10px;
+    text-align: center;
     font-family: "Mansalva", cursive;
     line-height: 1.4;
   }
@@ -29,10 +28,16 @@
     }
   }
   &__button {
-    margin-top: 30px;
+    margin-top: 50px;
     width: 100%;
     display: flex;
     justify-content: center;
+    @media (min-width: 360px) {
+      margin-top: 10;
+    }
+    @media (min-width: 768px) {
+      margin-top: 10;
+    }
     &-btn {
       flex-basis: 30%;
       border-radius: 5px;
@@ -49,8 +54,8 @@
 }
 
 .score {
-  margin: 5px 20px 0 40px;
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   &__result {
     margin-right: 20px;
@@ -62,11 +67,24 @@
 
 //createBoard.js classes
 .final__score {
-  position: absolute;
-  top: 550px;
+  margin: 15px 0 15px 0;
+  font-size: 20px;
   width: 100%;
   font-weight: bold;
   text-align: center;
+  @media (min-width: 360px) {
+    font-size: 15px;
+    margin: 0;
+  }
+  @media (min-width: 768px) {
+    font-size: 20px;
+  }
+  @media (min-width: 1366px) {
+    font-size: 30px;
+  }
+  @media (min-width: 1600px) {
+    font-size: 40px;
+  }
 }
 .board {
   background-color: rgb(15, 15, 15);

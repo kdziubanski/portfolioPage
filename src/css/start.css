@@ -1,0 +1,36 @@
+.main__start {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 83vh;
+}
+
+.main__start .start__image {
+  max-height: 40%;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  -ms-flex-preferred-size: 80%;
+      flex-basis: 80%;
+}
+
+.main__start .start__abilities {
+  background-color: black;
+  -ms-flex-preferred-size: 80%;
+      flex-basis: 80%;
+  height: 20vh;
+  opacity: 0.5;
+  border-radius: 35px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 20px;
+  padding-top: 10px;
+  margin-bottom: 50px;
+}
+/*# sourceMappingURL=start.css.map */

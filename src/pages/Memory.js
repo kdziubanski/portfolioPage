@@ -301,11 +301,8 @@ class Memory extends Component {
             Play with CPU
           </label>
         </div>
-
-        <div className="memory__button">
-          <button className="memory__button-btn" onClick={this.startButton}>
-            Start
-          </button>
+        <div className="memory__board">
+          <CreateBoard checkTiles={this.checkTiles} board={board} />
         </div>
         {finalTime ? (
           <ScoreDisplayer
@@ -314,12 +311,15 @@ class Memory extends Component {
             CPUScore={CPUScore}
           />
         ) : null}
+        <div className="memory__button">
+          <button className="memory__button-btn" onClick={this.startButton}>
+            Start
+          </button>
+        </div>
+
         <div className="score">
           <h5 className="score__result">Player: {this.state.playerScore}</h5>
           <h5 className="score__result">CPU: {this.state.CPUScore}</h5>
-        </div>
-        <div className="memory__board">
-          <CreateBoard checkTiles={this.checkTiles} board={board} />
         </div>
       </div>
     );

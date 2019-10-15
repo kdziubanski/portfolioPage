@@ -8,7 +8,20 @@
     max-height: 40%;
     margin-top: 50px;
     margin-bottom: 20px;
-    flex-basis: 80%;
+    width: 90%;
+
+    @media (min-width: 360px) {
+      width: 90%;
+    }
+    @media (min-width: 768px) {
+      width: 60%;
+    }
+    @media (min-width: 1366px) {
+      width: 50%;
+    }
+    @media (min-width: 1600px) {
+      width: 30%;
+    }
   }
 
   .start__abilities {
@@ -22,7 +35,19 @@
     font-weight: bold;
     font-family: monospace;
     font-size: 20px;
-    padding-top: 10px;
+    padding-top: 20px;
     margin-bottom: 50px;
+    @media (min-width: 360px) {
+      font-size: 20px;
+    }
+    @media (min-width: 768px) {
+      font-size: 20px;
+    }
+    @media (min-width: 1366px) {
+      font-size: 30px;
+    }
+    @media (min-width: 1600px) {
+      font-size: 40px;
+    }
   }
 }

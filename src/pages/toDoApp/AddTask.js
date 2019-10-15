@@ -28,13 +28,11 @@ const AddTask = props => {
             onChange={props.sliderHandler}
           />
         </div>
-        <span
-          disabled
-          // className={props.priority}
-          className={taskClass}
-        >
-          {props.priority}
-        </span>
+        <div>
+          <span disabled className={taskClass}>
+            {props.priority}
+          </span>
+        </div>
         <input
           className="form__date"
           name="acctualDate"

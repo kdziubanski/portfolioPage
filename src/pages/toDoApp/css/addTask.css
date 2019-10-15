@@ -1,0 +1,75 @@
+.tasks-adder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.form {
+  width: 100%;
+  text-align: center;
+  font-family: "Mansalva", cursive;
+}
+
+.form__span {
+  width: 100%;
+}
+
+.form__textArea {
+  width: 80%;
+  height: 10vh;
+  background-color: cadetblue;
+  border-radius: 5px;
+}
+
+.form__date {
+  background-color: cadetblue;
+  border-radius: 5px;
+  width: 70%;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: "Mansalva", cursive;
+}
+
+.form__addTask {
+  cursor: pointer;
+  margin: 10px 0;
+  border-radius: 10px;
+  width: 50%;
+  padding: 5px 0;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Mansalva", cursive;
+}
+
+.form__addTask:hover {
+  background-color: #666;
+}
+
+.form__important-button {
+  margin-bottom: 10px;
+  display: inline-block;
+  margin-left: 10px;
+  width: 120px;
+  height: 30px;
+  font-weight: bold;
+  color: black;
+  border-radius: 25px;
+  font-size: 20px;
+}
+
+.form .low {
+  background-color: green;
+}
+
+.form .medium {
+  background-color: yellow;
+}
+
+.form .important {
+  background-color: red;
+}
+/*# sourceMappingURL=addTask.css.map */
